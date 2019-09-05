@@ -146,10 +146,9 @@
     if(! self.bannerView) {
         [self __createBanner];
     }
-
+    
+    bannerShow = autoShowBanner;
     if(autoShowBanner) {
-        bannerShow = autoShowBanner;
-
         [self __showAd:YES];
     }
 
